@@ -57,17 +57,35 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg-brand-light {
-    background-color: #fbf9f2;
+  background-color: #fbf9f2;
 }
 
-.fs-7{
-    font-size: 14px;
+.app-header {
+  background: #fdbe12;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+.app-main {
+  overflow: auto;
+  margin-top: 60px;
+}
+
+.logo {
+  width: 124px;
+}
+
+.fs-7 {
+  font-size: 14px;
 }
 
 .fs-8 {
-    font-size: 12px;
+  font-size: 12px;
 }
